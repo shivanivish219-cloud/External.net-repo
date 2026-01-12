@@ -1,0 +1,135 @@
+body{
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: black;
+    }
+    .Background{width: 100%;
+        height: 100vh;
+        background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)
+          ),
+          #111;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+
+    }
+    /* .Header{"padding: 25px 50px">
+        <svg
+          width="150"
+          height="50"
+          viewBox="0 0 150 50"
+          xmlns="http://www.w3.org/2000/svg"
+
+    }
+
+    .Darkbackground{} */
+    .NETFLIX{x="75"
+            y="36"
+            font-family="Arial, sans-serif"
+            font-size="32"
+            font-weight="900"
+            fill="#E50914"
+            text-anchor="middle"
+            letter-spacing="0.5"
+
+    }
+    .Signupbox{flex: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+    }
+    .Signup div{width: 380px;
+            background: rgba(0, 0, 0, 0.75);
+            padding: 60px;
+            color: white;
+            border-radius: 4px;
+
+    }
+    .h1{margin: 0 0 28px 0;
+              font-size: 32px;
+              color: white;
+              font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .NameInput , .Email , .Password { width: 100%;
+              padding: 14px;
+              margin-bottom: 16px;
+              background: #333;
+              border: none;
+              border-radius: 4px;
+              color: white;
+              font-size: 16px;
+              box-sizing: border-box;
+
+    }
+    /* .Email{width: 100%;
+              padding: 14px;
+              margin-bottom: 16px;
+              background: #333;
+              border: none;
+              border-radius: 4px;
+              color: white;
+              font-size: 16px;
+              box-sizing: border-box;
+
+    }
+    .Password{width: 100%;
+              padding: 14px;
+              margin-bottom: 20px;
+              background: #333;
+              border: none;
+              border-radius: 4px;
+              color: white;
+              font-size: 16px;
+              box-sizing: border-box; 
+
+     } */
+    .Agreement{
+      display: flex;
+              align-items: flex-start;
+              margin-bottom: 20px;
+              font-size: 13px;
+              color: #b3b3b3;
+
+    }
+    .checkbox{margin-right: 10px; margin-top: 3px}
+
+    .word{
+      color: #e50914; cursor: pointer
+
+    }
+    
+     .span{
+      display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 14px;
+              color: #b3b3b3;
+
+    } 
+
+    .Button{width: 100%;
+              padding: 14px;
+              background: #e50914;
+              border: none;
+              border-radius: 4px;
+              color: white;
+              font-size: 16px;
+              font-weight: bold;
+              cursor: pointer;
+              margin-bottom: 20px;
+
+    }
+
+.notice{margin-top: 25px;
+              font-size: 11px;
+              color: #8c8c8c;
+              text-align: center;
+              padding-top: 15px;
+              border-top: 1px solid #333;
+
+}
